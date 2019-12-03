@@ -1,5 +1,4 @@
 const alarms = process.argv.slice(2);​​
-
 for (const alarm of alarms) {
   console.log('check');
   if (alarm >= 0) {
